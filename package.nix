@@ -119,7 +119,7 @@ in
         name = binaryName;
         desktopName = "Zen Browser${lib.optionalString (name == "twilight") " Twilight"}";
         exec = "${binaryName} %u";
-        icon = "zen-browser";
+        icon = "zen-browser.svg";
         type = "Application";
         mimeTypes = [
           "text/html"
